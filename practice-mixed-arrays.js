@@ -6,7 +6,7 @@ user’s hobbies).
 
  */
 
-let userProfile = ["Steve", 56, {city: "Nashville"}, ["Playing Music", "Biking"]];
+let userProfile = ["Steve", 56, false, {city: "Nashville"}, ["Playing Music", "Biking"]]; // Added subscription status after submitting assignment.
 
 /**
  * Task 2: Access and Log Profile Details. Use console.log() to access and display
@@ -16,7 +16,7 @@ the following:
 
  */
 
-console.log(userProfile[0], userProfile[3][1]);
+console.log(userProfile[0], userProfile[4][1]); // Updated hobbies index after adding subscription.
 
 /**
  * Task 3: Modify the Profile. Make the following updates:
@@ -27,7 +27,7 @@ console.log(userProfile[0], userProfile[3][1]);
 
 userProfile[1] = 42;
 
-userProfile[3].push("Skiing"); 
+userProfile[4].push("Skiing"); // Updated hobbies index after adding subscription.
 
 /**
  * Task 4: Display the Updated Profile. Log the entire updated profile to verify the
